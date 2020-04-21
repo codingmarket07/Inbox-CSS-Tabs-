@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	color: #4d5465;
+	background: #0058ff;
+}
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #fff;
+	width: 425px;
+	border-radius: 3px;
+}
+
+.wrapper .tab_wrap{
+	padding: 25px;
+}
+
+.wrapper .tab_wrap ul{
+	display: flex;
+	background: #f4fafe;
+	border-radius: 3px;
+}
+
+.wrapper .tab_wrap ul li{
+	width: 125px;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.wrapper .tab_wrap ul li:hover,
+.wrapper .tab_wrap ul li.active{
+	background: #e4edf5;
+}
+
+.inbox{
+	height: 632px;
+}
+
+.inbox li .all{
+	display: flex;
+	align-items: center;
+	padding: 15px 20px;
+	border-bottom: 1px solid #e4edf5;
+}
+
+.inbox li:last-child .all{
+	border-bottom: 0;
+}
+
+.inbox li .all:hover{
+	background: #e4edf5;
+}
+
+.inbox li .all img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.inbox li .all .li_right{
+	display: flex;
+}
+
+.inbox li .all .message{
+	margin: 0 20px;
+}
+
+.inbox li .all .message .title{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.inbox li .all .message .sub_title{
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.inbox li .all .time{
+	color: #ccc;
+	font-size: 12px;
+	text-align: right;
+}
+
+.inbox li .all .time_status .status{
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 50%;
+	background: #0058ff;
+	color: #fff;
+	margin-top: 15px;
+	font-size: 10px;
+}
