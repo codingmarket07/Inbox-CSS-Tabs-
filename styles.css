@@ -55,6 +55,7 @@ body{
 	align-items: center;
 	padding: 15px 20px;
 	border-bottom: 1px solid #e4edf5;
+	cursor: pointer;
 }
 
 .inbox li:last-child .all{
